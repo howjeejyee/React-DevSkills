@@ -1,13 +1,16 @@
 import React from 'react';
 import SkillListItem from './SkillListItem';
+import './SkillList.css';
 
-const SkillList = () => {
+const SkillList = ({ skills }) => {
   return (
-    <ul>
-      <SkillListItem />
-      <SkillListItem />
-      <SkillListItem />
-    </ul>
+    <div className="SkillListContainer">
+      <ul>
+        {skills.map((skill, index) => (
+          <SkillListItem key={index} name={skill.name} level={skill.level} index={index} />
+        ))}
+      </ul>
+    </div>
   );
 };
 

@@ -1,0 +1,18 @@
+  .SkillListItem {
+    margin: 2vmin 0; 
+    padding: 1vmin;
+    list-style: none;
+    font-size: 4vmin; 
+    text-align: center; 
+  }
+  
+  .SkillListItem:nth-child(odd) {
+    background-color: #add8e6; 
+    color:#0056b3;
+  }
+  
+  .SkillListItem:nth-child(even) {
+    background-color: #87ceeb; 
+    color:#0056b3;
+  }
+  

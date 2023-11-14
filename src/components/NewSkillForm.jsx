@@ -1,5 +1,6 @@
 import React from 'react';
 import LevelSelectOptions from './selectOption';
+import './NewSkillForm.css';
 
 const NewSkillForm = () => {
   return (
